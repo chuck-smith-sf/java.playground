@@ -12,6 +12,7 @@ public class Application {
             System.exit(1);
         } else if (args.length == 1){
             System.out.println("Please specify and email for " + args[0]);
+            System.exit(1);
         }
         String name = (args[0]);
         String email  = (args[1]);
